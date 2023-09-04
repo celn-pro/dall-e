@@ -1,3 +1,4 @@
+global.AbortController = require('node-abort-controller').AbortController;
 import express from 'express'
 import * as dotenv from 'dotenv'
 import cors from 'cors'
